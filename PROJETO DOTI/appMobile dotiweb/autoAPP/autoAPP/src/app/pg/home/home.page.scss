@@ -1,0 +1,40 @@
+.topo ion-toolbar{
+    --background: black;
+    text-align: center;
+}
+.topo img{
+    margin-top: 13px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+.topo ion-menu-button{
+    --color:white;
+}
+.corpo{
+    --background: url("../../../assets/img/fundoEscuro.png") no-repeat center / cover;
+    text-align: center;
+}
+.corpo a{
+    font-style: none;;
+}
+.slide h2{
+    border-top: 2px solid black;
+    font-size: 30px;
+    background: #d9bd30;
+    color: black;
+}
+.slide img{
+    width: 100%;
+}
+.btnHomefundo{
+    background: #d9bd30;
+    padding: 5px;
+    margin: 25px 25px 25px 25px;
+}
+.btnHome h2{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    color: black;
+
+}

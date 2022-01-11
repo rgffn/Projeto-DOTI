@@ -1,0 +1,148 @@
+ion-menu ion-content {
+  --background: var(--ion-item-background, var(--ion-background-color, #000000));
+}
+
+ion-menu.md ion-content {
+  --padding-start: 8px;
+  --padding-end: 8px;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+}
+
+ion-menu.md ion-list {
+  padding: 20px 0;
+}
+
+ion-menu.md ion-note {
+  margin-bottom: 30px;
+}
+
+ion-menu.md ion-list-header,
+ion-menu.md ion-note {
+  padding-left: 10px;
+}
+
+ion-menu.md ion-list#inbox-list {
+  border-bottom: 1px solid #ffffff;
+  background: black;
+}
+
+ion-menu.md ion-list#inbox-list ion-list-header {
+  font-size: 22px;
+  font-weight: 600;
+
+  min-height: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+ion-menu.md ion-list#labels-list ion-list-header {
+  font-size: 16px;
+
+  margin-bottom: 18px;
+
+  color: #d9bd30;
+
+  min-height: 26px;
+}
+
+ion-menu.md ion-item {
+  --padding-start: 10px;
+  --padding-end: 10px;
+  border-radius: 4px;
+  --background: black;
+}
+
+ion-menu.md ion-item.selected {
+  --background: #d9bd30;
+}
+
+ion-menu.md ion-item.selected ion-icon {
+  color: black;
+}
+
+ion-menu.md ion-item ion-icon {
+  color: white;
+}
+
+ion-menu.md ion-item ion-label {
+  font-weight: 500;
+  color: white;
+}
+
+ion-menu.ios ion-content {
+  --padding-bottom: 20px;
+}
+
+ion-menu.ios ion-list {
+  padding: 20px 0 0 0;
+}
+
+ion-menu.ios ion-note {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+ion-menu.ios ion-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --min-height: 50px;
+}
+
+ion-menu.ios ion-item.selected ion-icon {
+  color: white;
+}
+
+ion-menu.ios ion-item ion-icon {
+  font-size: 24px;
+  color: black;
+}
+
+ion-menu.ios ion-list#labels-list ion-list-header {
+  margin-bottom: 8px;
+}
+
+ion-menu.ios ion-list-header,
+ion-menu.ios ion-note {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+ion-menu.ios ion-note {
+  margin-bottom: 8px;
+}
+
+ion-note {
+  display: inline-block;
+  font-size: 16px;
+
+  color: var(--ion-color-medium-shade);
+}
+
+ion-item.selected {
+  --color: black;
+}
+.btn{
+  width: 101%;
+  --background: #d9bd30;
+  text-align: center;
+  margin-top: 15px;
+}
+.btn h2{
+  margin: auto;
+  color: black;
+}
+.btnMenu{
+  margin-top: -20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  background: black;
+  margin-left: -5px;
+}
+.cor h3{
+  color: white;
+  padding-left: 10px;
+}.logo{
+  width: 100%;
+}

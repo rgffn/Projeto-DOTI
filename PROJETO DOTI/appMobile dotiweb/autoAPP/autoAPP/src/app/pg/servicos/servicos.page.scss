@@ -1,0 +1,111 @@
+.topo ion-toolbar{
+    --background: black;
+    text-align: center;
+}
+.topo img{
+    margin-top: 13px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+.topo ion-menu-button{
+    --color:white;
+}
+.corpo{
+    --background: url("../../../assets/img/fundoapp.png") no-repeat center / cover;
+}
+ion-searchbar{
+    background: #d9bd30;
+}
+.servicoItem{
+    background: #d9bd30a1;
+}
+.servicoItem:nth-child(even){
+    background: #ffffff8a;
+}
+
+.servicoItem h4{
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.servicoItem p{
+    font-size: 0.9em;
+    text-align: start;
+    padding-right: 4%;
+    margin: 4px 0 0 0;
+    color: #2f2f30;
+}
+
+.servicoItem a{
+    
+    float: right;
+    font-size: x-large;
+}
+a{
+    color: black;
+}
+.grid {
+    padding: 0px;
+    .slides {
+      .overlay {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+        display: inline-flex;
+      }
+      .slider-img {
+        height: 220px;
+        width: 100%;
+        position: relative;
+        z-index: -111;
+      }
+      .slider-text {
+        color: #fff;
+        font-size: 22px;
+        padding: 5px;
+        position: absolute;
+        bottom: 0;
+        margin: 5px 0px;
+      }
+
+    }
+
+    //banner image
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /*Categories*/
+
+    .categories {
+      flex-wrap: wrap;
+      h2 {
+        margin-top: -12px;
+        font-size: 2.7rem;
+        color: rgba(66, 66, 66, 0.87);
+        font-weight: 500;
+      }
+      img {
+        height: 110px;
+        width: 100%;
+        position: relative;
+        z-index: -111;
+      }
+      .text-over-img {
+        color: #fff;
+        font-size: 18px;
+        padding: 5px;
+        background-color: rgba(119, 119, 119, 0.6);
+        position: relative;
+        width: 100%;
+        margin: -34px 0px 0px 0px;
+        text-align: center;
+
+      }
+    }
+  }

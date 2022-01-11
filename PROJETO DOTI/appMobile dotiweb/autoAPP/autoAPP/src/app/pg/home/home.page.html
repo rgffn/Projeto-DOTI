@@ -1,0 +1,24 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <img src="../../../assets/img/Logobranco.png" alt="">
+  </ion-toolbar>
+</ion-header>
+<ion-content class="corpo">
+  <section class="btnHomefundo">
+  <ion-row class="btnHome"  >
+    <ion-col size="3" *ngFor="let itemProva of provaItems">
+      <a href="{{ itemProva.minimoAcerto }}"target="blank">
+        <img class="logo" src="../../../assets/img/vrum.png" >
+        
+      </a>
+      <h2>{{ itemProva.prova }}</h2>
+    </ion-col>
+  </ion-row>
+</section>
+  <button></button>
+  <iframe src="https://pt.euronews.com/embed/timeline" scrolling="no" style="border:none; min-height:420px; width:100%; height:30%;"></iframe>
+  
+  </ion-content>

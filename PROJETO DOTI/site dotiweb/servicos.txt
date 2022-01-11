@@ -1,0 +1,79 @@
+  <!--================ Serviços =================-->
+  <section class="section-margin">
+    <div class="container">
+      <div class="section-intro text-center pb-65px">
+        <h2 class="section-intro__title">Serviços</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/categoriaa.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
+            </div>
+            <div class="card-subject__body">
+              <h3><a href="#">Categoria A</a></h3>
+              <p>Condutor de veículo motorizado de duas ou três rodas, com ou sem carro lateral, 
+                (Motocicleta, Ciclomotor, Motoneta ou Triciclo).
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/categoriab.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
+            </div>
+            <div class="card-subject__body">
+              <h3><a href="#">Categoria B</a></h3>
+              <p>Condutor de veículos, cujo peso bruto total não exceda a 3500 kg ou cuja lotação não exceda a oito lugares.
+                (Automóvel, caminhonete, camioneta e utilitário).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/categoriad.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
+            </div>
+            <div class="card-subject__body">
+              <h3><a href="#">Categoria D</a></h3>
+              <p>Agora a responsabilidade aumenta ainda mais. Motoristas dessa categoria podem transportar maiores lotações de pessoas e ainda os veículos de categorias B e C.
+                (Micro-ônibus, Ônibus).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/categoriae.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
+            </div>
+            <div class="card-subject__body">
+              <h3><a href="#">Categoria E</a></h3>
+              <p>Motoristas dessa categoria transportam mais de 6000 kg. Para chegar até aqui, é preciso percorrer um dedicado trajeto.
+                 (Veículo com dois reboques acoplados e trailers).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center mt-5 pt-xl-4">
+        <a class="button" href="#">Veja todos os nossos serviços<span class="align-middle"><i class="ti-arrow-right"></i></span></a>
+      </div>
+    </div>
+  </section>
+  <!--================ Serviços Fim =================-->

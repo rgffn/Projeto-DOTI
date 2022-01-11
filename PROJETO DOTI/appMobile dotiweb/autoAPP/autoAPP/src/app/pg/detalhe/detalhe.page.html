@@ -1,0 +1,37 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <img src="../../../assets/img/Logobranco.png" alt="">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="corpo">
+
+  <ion-row class="slide">
+    <ion-col size="12">
+      <ion-slides pager="true">
+        <ion-slide>
+          <ion-img [src]="this.servidorUrl.pegarUrl()+dados[0]?.fotoServico1" alt="{{ dados[0]?.nomeServico }}"></ion-img>
+        </ion-slide>
+    
+        <ion-slide>
+          <ion-img [src]="this.servidorUrl.pegarUrl()+dados[0]?.fotoServico2" alt="{{ dados[0]?.nomeServico }}"></ion-img>
+        </ion-slide>
+    
+        <ion-slide>
+          <ion-img [src]="this.servidorUrl.pegarUrl()+dados[0]?.fotoServico3" alt="{{ dados[0]?.nomeServico }}"></ion-img>
+        </ion-slide>
+      </ion-slides>
+    </ion-col>
+  
+    <ion-col size="12">
+  <p>{{dados[0]?.texto}}</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-button class="btn btnFundo" href="https://dotiweb.com/contato.php" target="blank" expand="block">Faça a sua matricula</ion-button>
+
+
+</ion-content>

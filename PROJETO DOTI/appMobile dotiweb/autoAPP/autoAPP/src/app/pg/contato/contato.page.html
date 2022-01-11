@@ -1,0 +1,59 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <img src="../../../assets/img/Logobranco.png" alt="">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="corpo">
+
+  <p class="contact-head">Entre em Contato!</p>
+  <form [formGroup]="contato" (ngSubmit)="cadContato()">
+
+    <!--nome-->
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label>Nome: </ion-label>
+          <ion-input type="text" name="nome" id="nome" [(ngModel)]="nome" formControlName="nome" required></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <!--email-->
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label>Email: </ion-label> 
+          <ion-input type="email" name="email" id="email" [(ngModel)]="email" formControlName="email" required></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+        <!--email-->
+        <ion-row>
+          <ion-col col-12>
+            <ion-item>
+              <ion-label>Celular: </ion-label>
+              <ion-input type="text" name="celular" id="celular" [(ngModel)]="celular" formControlName="celular" required></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+    <!--msg-->
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label>Mensagem: </ion-label>
+          <ion-textarea rows="6" lineHeight="42" name="msg" id="msg" [(ngModel)]="msg" formControlName="msg" required></ion-textarea>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-12>
+        <button class="submit-btn" ion-button type='submit'>Enviar</button>
+      </ion-col>
+    </ion-row>
+
+  </form>
+</ion-content>

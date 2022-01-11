@@ -1,0 +1,52 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <img src="../../../assets/img/Logobranco.png" alt="">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="corpo">
+<ion-searchbar (ionInput)="getItems($event)" placeholder="Buscar"></ion-searchbar>
+
+<ion-row class="servicoItem" href="home" *ngFor="let itemAulaT of aulaTItems">
+  <ion-col size="12">
+    <ion-item class="fundoec">
+    <h4>Aula Teorica</h4>
+  </ion-item>
+    <p>Data e Hora: {{ itemAulaT.dataAulaT }}</p>
+    <p>Serviço: {{ itemAulaT.nomeServico }}</p>
+    <p>Aluno: {{ itemAulaT.nome }}</p>
+    <p>Observação: {{ itemAulaT.obs }}</p>
+    <p>Status: {{ itemAulaT.statusAulaT }}</p>
+
+    <a href="alteraraula-t/{{ itemAulaT.idAulaT }}">
+      <ion-icon name="time"></ion-icon>
+    </a>
+
+  </ion-col>
+
+</ion-row>
+
+<ion-row class="servicoItem" href="home" *ngFor="let itemAulaP of aulaPItems">
+  <ion-col size="12">
+    <ion-item class="fundoec">
+      <h4>Aula Pratica</h4>
+    </ion-item>
+    <p>Data e Hora: {{ itemAulaP.dataAulaP }}</p>
+    <p>Serviço: {{ itemAulaP.nomeServico }}</p>
+    <p>Aluno: {{ itemAulaP.nome }}</p>
+    <p>Observação: {{ itemAulaP.obs }}</p>
+    <p>Placa: {{ itemAulaP.placa }}</p>
+    <p>Modelo: {{ itemAulaP.modelo }}</p>
+    <p>Status: {{ itemAulaP.statusAulaP }}</p>
+    <a href="alteraraula/{{ itemAulaP.idAulaP }}">
+      <ion-icon name="time"></ion-icon>
+    </a>
+  </ion-col>
+</ion-row>
+
+
+</ion-content>
+

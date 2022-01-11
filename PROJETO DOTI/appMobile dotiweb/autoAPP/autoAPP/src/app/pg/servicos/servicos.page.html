@@ -1,0 +1,28 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <img src="../../../assets/img/Logobranco.png" alt="">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="corpo">
+<ion-searchbar (ionInput)="getItems($event)" placeholder="Buscar"></ion-searchbar>
+
+<ion-row class="servicoItem" href="home" *ngFor="let itemServico of servicoItems">
+  <ion-col size="4">
+    <ion-img [src]="this.servidorUrl.pegarUrl()+itemServico.fotoServico" alt="{{ itemServico.nomeServico }}"></ion-img>
+  </ion-col>
+
+  <ion-col size="8">
+    <h4>{{ itemServico.nomeServico }}</h4>
+    <p>{{ itemServico.descServico }}</p>
+    <a href="detalhe/{{ itemServico.idServico }}">
+      <ion-icon name="caret-forward-outline"></ion-icon>
+    </a>
+  </ion-col>
+</ion-row>
+
+</ion-content>
+

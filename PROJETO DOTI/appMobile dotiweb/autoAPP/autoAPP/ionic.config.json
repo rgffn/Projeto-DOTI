@@ -1,0 +1,8 @@
+{
+  "name": "autoAPP",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

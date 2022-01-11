@@ -1,0 +1,62 @@
+.topo ion-toolbar{
+    --background: black;
+    text-align: center;
+}
+.topo img{
+    margin-top: 13px;
+    margin-right: 48px;
+    margin-bottom: 8px;
+}
+.topo ion-menu-button{
+    --color:white;
+}
+.corpo{
+    --background: url("../../../assets/img/fundoapp.png") no-repeat center / cover;
+    text-align: center;
+}
+.corpo h1{
+    margin: 100px 0px 25px 0px;
+    font-weight: bold;
+    color: black;
+}
+
+.loginItem{
+    margin-top: 1%;
+}
+
+.itemInput{
+    opacity: .8;
+    padding: 2% 15%;
+    --color:white;
+    --background: black;
+    --border-color: #d9bd30;
+    --border-style: solid;
+}
+.itemInput ion-icon{
+    color: #d9bd30;
+}
+
+.btn{
+    width: 70%;
+    margin: 2% auto;
+    --background: #d9bd30;
+    color: black;
+}
+.btn1{
+    width: 70%;
+    margin: 2% auto;
+    --background: white;
+    color: black;
+}
+
+.btnFundo{
+    margin-top: 10%;
+}
+.iconSocial{
+    justify-content: center;
+    margin-top: 25px;
+}
+.iconSocial img{
+    width: 60%;
+    margin: 15% 0;
+}
