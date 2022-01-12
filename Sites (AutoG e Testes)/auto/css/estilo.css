@@ -1,0 +1,469 @@
+body{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.site{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+.faixaredesocial{
+    background: #d9bd30;
+}
+.faixamenu{
+    background: #2f2f30;
+}
+.topo{
+    background: #2f2f30;
+}
+.toporedesocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0px;
+}
+.toporedesocial h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.toporedesocial ul{
+    display: flex ;
+}
+.toporedesocial ul li{
+    margin: 0px 5px;
+}
+.toporedesocial ul li a{
+    list-style: none;
+    margin: 5px;
+}
+.toporedesocial h1 a{
+    background: url(../img/icones/Logobranco.png)no-repeat;
+    width: 175px;
+    height: 87px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding: 0px;
+}
+.menu ul li a{
+    font-size: 14px;
+    color: #ffd100;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    padding: 0px 19px;
+    box-sizing: border-box;
+    line-height: 87px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #eb622f;
+    text-decoration: none;
+}
+/* Banner */
+.banner img{
+    width: 100%;
+}
+
+.banner .slick-prev:before,
+.banner .slick-next:before {
+	font-size: 40px;
+	opacity: .75;
+	color: #d9bd30;
+}
+.banner .slick-next {
+	right: 40px;
+}
+
+.banner .slick-prev {
+	left: 25px;
+	z-index: 99;
+}
+
+.banner .slick-dots {
+	bottom: 537px;
+}
+.banner .slick-dots li button:before {
+	font-size: 25px;
+	opacity: .75;
+	color: #2f2f30;
+}
+.banner .slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: #d9bd30;
+}
+/* Fim do Banner */
+
+/*submenu*/
+.submenu {
+    position: relative;
+    margin-top: -130px;
+}
+.submenu{
+    display: flex;
+    justify-content: center;
+}
+.submenu i{
+    width: 1px;
+    height: 145px;
+    float: left;
+    margin: 30px 0px 0px -1px;
+    background: rgb(232, 232, 232);
+}
+.submenu img{
+    border-radius: 5px;
+}
+/*fim submenu*/
+
+/*Serviço*/
+.servico div div div{
+    background: #d9bd30;
+    margin: 10px;
+    width: 90%;
+}
+.servico img{
+    margin: auto;
+}
+.servico a{
+    float: right;
+    color: #d9bd30;
+    padding: 15px 20px;
+    text-decoration: none;
+    background: #2f2f30;
+    border-radius: 20px;
+    margin: 40px 46px 0px 0px;
+}
+
+.servico .slick-prev:before,
+.servico .slick-next:before {
+	font-size: 40px;
+	opacity: .75;
+	color: black;
+}
+.servico .slick-next {
+	right: 40px;
+}
+
+.servico .slick-prev {
+	left: 25px;
+	z-index: 99;
+}
+
+.servico .slick-dots {
+	bottom: 20px;
+}
+.servico .slick-dots li button:before {
+	font-size: 25px;
+	opacity: .75;
+	color: black;
+}
+.servico .slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: black;
+}
+/*Fim serviço*/
+
+
+
+.doisapp ul{
+    display: flex;
+    background: gray;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.doisapp ul li{
+    display: flex;
+    text-decoration: none;
+}
+.doisapp ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 5%;
+        margin-block-start: 2%;
+}
+
+.phab img{
+    width: 100%;
+    height: 216px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.phab section{
+    display: flex;
+    justify-content: space-between;  
+    padding: 15px 0px; 
+}
+.phab section article{
+    width:20%;
+    background:rgb(48, 48, 48);
+}
+.phab h4{
+    width: 100%;
+    height: 216px;
+    font-size: 30px;
+    line-height: 216px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin: -216px 0px 0px;
+    padding: 0px;
+}
+.phab h5{
+    font-weight: 900;
+    color: rgb(246, 137, 28);
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 15px 20px 15px;
+}
+.phab a{
+    float: right;
+    text-decoration: none;
+
+}
+.phab p{
+    text-align: center;
+    padding: 0px 15px 40px 15px;
+    color: white;
+}
+.phab i{
+    width: 80px;
+    height: 80px;
+    margin: 175px -30px 0 -30px;
+    background: url(../img/80x80.png) center no-repeat #FFF;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+}
+
+.phab h2, h3{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2f2f2f;
+    text-align: center;
+    font-weight: 400;
+}
+
+.review section{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+    /*background:silver;*/
+}
+.review section article{
+    justify-content: space-around;
+    padding: 30px 90px;
+    /*background:yellow;*/
+}
+.review section article h3,p{
+    text-align: center;
+    padding: 10px 0px;
+}
+.review section article img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    background-color: transparent;
+    overflow: hidden;
+}
+.spin{
+    margin-top: 9px;
+    padding: 5px 5px;
+    background: #0E1217;
+}
+.spin section{
+    display:flex;
+    justify-content: space-around;
+}
+.spin section ul{
+    display: flex;
+}
+.spin section ul li{
+    list-style: none;
+    padding: 30px;
+    margin: 5px;
+    background: slateblue;
+    width: 20px;
+}
+.direitos{
+    padding: 40px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    background-color: #2f2f30;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.creditos{
+    width: 100%;
+    background: #d9bd30;
+    padding: 12px 0px;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    border-bottom: 1px solid #2f2f30;
+}
+.creditos a{
+    color: #2f2f30;
+    text-decoration: none;
+}
+
+/*Serviços*/
+.categorias{
+    justify-content: center;
+}
+.categorias article{
+    display: flex;
+    padding: 50px 0;
+}
+.categorias article img{
+    display: flex;
+}
+.categorias article h2{
+    text-align: center;
+    display: flex;
+}
+.categorias article p{
+    text-align: justify;
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+}
+/* Fim do Serviços*/
+
+/*Sobre*/
+/*Texto inicial*/
+.centralizartexto{
+    text-align: center;
+}
+.sobretitulo{
+    margin: 100px 20px 10px 20px;
+}
+.sobretitulo h2{
+    font-family: Roboto,Sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffcb08;
+}
+.sobresubtitulo{
+    margin-bottom: 20px;
+}
+.sobresubtitulo h2{
+    font-family: Roboto,Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: italic;
+    color: #54595f;
+}
+.divisor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.divisorseparador{
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #ffcb08;
+    width: 9%;
+    display: inline-block;
+    line-height: 0;
+    font-size: 0;
+}
+/*Sob*/
+.sobre{
+    padding: 0 0 100px;
+}
+.sobrelinha{
+    width: 100%;
+    display: flex;
+}
+.sobrecoluna section{
+    width: 33.33%;
+    padding: 15px;
+}
+.motivos{
+    padding: 55px 0 0;
+}
+.motivos :last-child{
+    margin-bottom: 20px;
+}
+.motivotitulo section div h3{
+    color: #ffcb08;
+    font-family: montserrat,Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.motivodesc section div p{
+    color: #54595f;
+    font-family: montserrat,Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+.iconef section div img{
+    margin: 0px 160px 15px 160px;
+}
+.octagono {
+    clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
+}
+.octagonoimg div {
+    background: url(../img/icones/Sobre.png) no-repeat;
+    background-size: cover;
+    margin: 142px 10px;
+    height: 350px;
+    width: 350px;
+    float: left;
+}
+.fundo{
+    padding: 100px 0;
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+}
+.infolinha{
+    width: 25%;
+    display: flex;
+}
+.infolinha section article img{
+    margin-bottom: 20px;
+}
+.infolinha section h3{
+    color: #000;
+    font-family: montserrat,Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.infolinha section h2{
+    color: #000;
+    font-family: montserrat,Sans-serif;
+    font-size: 85px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.iconef section img{
+    margin: 0px 126px 15px 126px;
+}
+
+/*Fim do Sobre*/
