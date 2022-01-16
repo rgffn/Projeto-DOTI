@@ -25,14 +25,14 @@ try{
         $phpmail->SMTPSecure = 'tls'; // Autenticação SMTP
         $phpmail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação   
         
-        $phpmail->Username = "Seu E-mail"; // SMTP username         
-        $phpmail->Password = "Sua Senha"; // SMTP password
+        $phpmail->Username = "thecakeisalieemm@gmail.com"; // SMTP username         
+        $phpmail->Password = "testedebora"; // SMTP password
 		
         $phpmail->IsHTML(true);         
         
         $phpmail->setFrom($email, $nome); // E-mail do remetende enviado pelo method post  
                  
-        $phpmail->addAddress("Seu E-mail", $assunto);// E-mail do destinatario/*  
+        $phpmail->addAddress("thecakeisalieemm@gmail.com", $assunto);// E-mail do destinatario/*  
         
         $phpmail->Subject = $assunto; // Assunto do remetende enviado pelo method post
                 
@@ -69,8 +69,8 @@ try{
         $phpmailResposta->SMTPSecure = 'tls';
         $phpmailResposta->SMTPAuth = true;   
         
-        $phpmailResposta->Username = "Seu E-mail";         
-        $phpmailResposta->Password = "Sua Senha";          
+        $phpmailResposta->Username = "thecakeialieemm@gmail.com";         
+        $phpmailResposta->Password = "testedebora";          
         $phpmailResposta->IsHTML(true);         
         
         $phpmailResposta->setFrom($email, $nome); // E-mail do remetende enviado pelo method post  
